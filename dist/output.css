@@ -530,12 +530,76 @@ video {
   justify-content: space-around;
 }
 
-.logo {
+.logo-oppened {
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.logo-closed {
+  display: none;
+}
+
+.btnburg-closed {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .btnburg-closed {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .btnburg-closed {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btnburg-closed {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .btnburg-closed {
+    display: none;
+  }
+}
+
+.btnburg-oppened {
+  display: none;
+}
+
+.btnatext-closed-li {
+  display: none;
+}
+
+.btnatext-oppened-li {
+  margin-top: 2rem;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.btnatext {
+  width: 100vw;
+  border-bottom-width: 2px;
+  text-align: center;
 }
 
 /* Aqui os links vão mudando de gap de acordo com a tela (se for menor que o limite os links somem) */
