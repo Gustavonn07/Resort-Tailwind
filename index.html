@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body class="h-screen w-full">
     <header class="h-2/4">
         <ul class="ul">
-            <li><h3 class="logo">LOGO</h3></li>
+            <!-- Mudar a classe para abri e fechar -->
+            <li><h3 class="logo-oppened">LOGO</h3></li>
+            <li>
+                <!-- Mudar a classe para abrir e fechar -->
+                <button class="btnburg-closed"><i class="fa-solid fa-bars text-3xl text-gray-400"></i></button>
+                <ul>
+                    <!-- Mudar a classe para abrir e fechar -->
+                    <li class="btnatext-closed-li">
+                        <a href="#" class="btnatext">Como reservar</a>
+                        <a href="#" class="btnatext">Sobre nós</a>
+                        <a href="#" class="btnatext">Informações</a>
+                        <a href="#" class="btnatext">Contato</a>
+                    </li>
+                </ul>
+            </li>
             <li class="ligap">
                 <a href="#" class="atext">Como reservar</a>
                 <a href="#" class="atext">Sobre nós</a>

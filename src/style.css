@@ -3,11 +3,35 @@
 @import 'tailwindcss/utilities';
 
 .ul {
-    @apply w-full flex justify-around h-1/4 items-center
+    @apply w-full flex justify-around h-1/4 items-center 
 }
 
-.logo {
+.logo-oppened {
     @apply text-3xl text-gray-700 font-bold
+}
+
+.logo-closed {
+    @apply hidden
+}
+
+.btnburg-closed {
+    @apply xl:hidden lg:hidden md:hidden sm:hidden w-12 h-12 rounded-lg bg-slate-100 
+}
+
+.btnburg-oppened {
+    @apply hidden
+}
+
+.btnatext-closed-li {
+    @apply hidden
+}
+
+.btnatext-oppened-li{
+    @apply w-screen flex flex-col items-center mt-8 text-gray-900 text-lg bg-gray-300
+}
+
+.btnatext {
+    @apply border-b-2 w-screen text-center
 }
 
 /* Aqui os links vão mudando de gap de acordo com a tela (se for menor que o limite os links somem) */
