@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body class="h-screen w-full">
-    <header class="h-2/4">
+    <header class="h-1/6">
         <ul class="ul">
             <!-- Mudar a classe para abri e fechar -->
             <li><h3 class="logo-oppened">LOGO</h3></li>
@@ -36,7 +36,28 @@
     </header>
 
     <main>
+        <section style="background: url('images-resort/hero-image-1.png'); height: 450px">
+            <ul class="flex flex-col text-center justify-center h-full">
+                <li><h2 class="text-white sm:text-4xl text-3xl mb-3">Onde você quer ir?</h2></li>
+                <li><p class="text-white sm:text-xl text-lg">Escolha o estado para achar os melhores resorts.</p></li>
+                <li class="w-full flex justify-center">
+                    <form class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-7 mb-16">
+                        <select class="select">
+                            <option value="">Escolha estado</option>
+                        </select>
 
+                        <select class="select">
+                            <option value="">Escolha cidade</option>
+                        </select>
+
+                        <button class="btn-form">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round"stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            Pesquisar resorts
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <footer>
