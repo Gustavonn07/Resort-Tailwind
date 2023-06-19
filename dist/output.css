@@ -522,3 +522,59 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.ul {
+  display: flex;
+  height: 25%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+/* Aqui os links vão mudando de gap de acordo com a tela (se for menor que o limite os links somem) */
+
+.ligap {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .ligap {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ligap {
+    display: flex;
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ligap {
+    display: flex;
+    gap: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ligap {
+    display: flex;
+    gap: 2.25rem;
+  }
+}
+
+.atext {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}

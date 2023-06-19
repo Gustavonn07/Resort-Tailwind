@@ -2,3 +2,19 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.ul {
+    @apply w-full flex justify-around h-1/4 items-center
+}
+
+.logo {
+    @apply text-3xl text-gray-700 font-bold
+}
+
+/* Aqui os links vão mudando de gap de acordo com a tela (se for menor que o limite os links somem) */
+.ligap {
+    @apply xl:gap-9 lg:gap-7 md:gap-5 sm:gap-4 xl:flex lg:flex md:flex sm:flex hidden
+}
+
+.atext {
+    @apply text-gray-600 text-lg
+}
