@@ -1,4 +1,4 @@
-<h1 align='center'>Meu segundoo projeto com Tailwind</h1>
+<h1 align='center'>Meu segundo projeto com Tailwind</h1>
 
 ## Objetivo: Praticar o uso de Tailwind pela 2° vez
 1. Consegui usar Tailwind com bastante facilidade, treinando o uso de @apply.
